@@ -5,4 +5,4 @@ export TM_GRIFFON=`which $TM_GRIFFON`
 script="$1"
 shift
 
-ruby -r GriffonMate -r ui -- "$TM_BUNDLE_SUPPORT/GriffonMate/$script.rb" $@
+ruby18 -r GriffonMate -r ui -- "$TM_BUNDLE_SUPPORT/GriffonMate/$script.rb" $@
