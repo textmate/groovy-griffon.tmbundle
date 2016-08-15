@@ -14,6 +14,20 @@
 	<string>Create MVC</string>
 	<key>output</key>
 	<string>showAsHTML</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>griffon</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/griffon</string>
+				<string>/usr/local/bin/griffon</string>
+			</array>
+			<key>variable</key>
+			<string>TM_GRIFFON</string>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.groovy</string>
 	<key>uuid</key>
